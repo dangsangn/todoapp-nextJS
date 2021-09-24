@@ -14,3 +14,39 @@ a {
 * {
   box-sizing: border-box;
 }
+ul,li {
+  list-style: none;
+}
+.main {
+  max-width: 1200px;
+  padding: 0 100px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: column;
+  min-height:100vh;
+}
+
+.footer {
+  margin: 50px 0;
+  padding:12px;
+  text-align: center;
+  border-top: 1px solid #888;
+}
+
+.body {
+  flex-grow:1;
+}
+.notfound {
+  text-align: center;
+  margin-top:100px;
+}
+.notfound  a {
+    display: inline-block;
+    padding: 8px 24px;
+    background-color: #2e98a3;
+    color: white;
+    border-radius: 4px;
+    margin-left: 20px;
+  
+}

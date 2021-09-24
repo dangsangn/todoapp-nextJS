@@ -1,0 +1,19 @@
+.link a {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight:bold;
+  border-bottom-width:3px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+  transition: all 0.4s ease;
+
+}
+.link a:hover {
+  border-bottom-color: #cb2a2a;
+  color: #cb2a2a;
+}
+.logo {
+  font-size: 20px !important;
+  color: #cb2a2a !important;
+}
